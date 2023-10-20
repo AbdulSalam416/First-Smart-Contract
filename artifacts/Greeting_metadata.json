@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newGreeting",
+						"type": "string"
+					}
+				],
+				"name": "setGreeting",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Greeting.sol": "Greeting"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Greeting.sol": {
+			"keccak256": "0x19495ef3a097d0da08eff4227f7a337bc3c35200aa27c87fccaabf7e4f923b8d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2e96e1b7828003df857a33999ce4db31f2297af2f50d5712a0a96991b1f9d3d9",
+				"dweb:/ipfs/QmTB1H7uuW8GTgzsM16hPbs4SxhPxyHsbb3yzsaZz2XjCJ"
+			]
+		}
+	},
+	"version": 1
+}
